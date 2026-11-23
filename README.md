@@ -5,8 +5,14 @@
   <img src="https://img.shields.io/badge/Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity" />
   <img src="https://img.shields.io/badge/Superpowers%20Skills-FF6F00?style=for-the-badge&logo=lightning&logoColor=white" alt="Superpowers Skills" />
   <img src="https://img.shields.io/badge/Prompt%20Engineering-2EA44F?style=for-the-badge&logo=target&logoColor=white" alt="Prompt Engineering" />
+  <img src="https://img.shields.io/badge/Oracle%20Cloud%20AI-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Cloud AI" />
   <img src="https://img.shields.io/badge/Santander%20Bootcamp-EC0000?style=for-the-badge&logo=santander&logoColor=white" alt="Santander Bootcamp" />
-  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
+</p>
+<p align="left">
+  <img src="https://img.shields.io/badge/Data%20de%20In%C3%ADcio-23%2F11%2F2026-0A84FF?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Data de Início: 23/11/2026" />
+  <img src="https://img.shields.io/badge/Data%20de%20T%C3%A9rmino-30%2F11%2F2026-30D158?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Data de Término: 30/11/2026" />
+  <img src="https://img.shields.io/badge/Dura%C3%A7%C3%A3o-7%20Dias%20(1h%2Fdia)-FF9500?style=for-the-badge&logo=clockify&logoColor=white" alt="Duração: 7 Dias" />
+  <img src="https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Status: Concluído" />
 </p>
 
 Desafio de Projeto da [DIO](https://dio.me): monte o seu kit de IA para o dia a dia e delegue uma tarefa real, com você no comando.
