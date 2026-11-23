@@ -48,40 +48,104 @@ Você não precisa instalar nada nem saber programar. Tudo acontece no navegador
 
 ## Minha Entrega
 
-Na sua cópia, abra este README, clique no lápis (**Edit this file**) e role até aqui. Troque cada frase em itálico pelo que você fez e cole o texto dentro dos blocos já prontos. Para pôr um print, é só colar a imagem com Ctrl+V. No fim, clique em **Commit changes**.
-
-Nada de e-mail, nome de cliente, dado da empresa, senha ou informação pessoal nos textos e nos prints.
+Abaixo está o registro completo da realização do desafio, documentando a tarefa real escolhida, os modelos adaptados, o comando de delegação, o plano prévio da IA, os resultados alcançados e as reflexões sobre o processo.
 
 ### Minha Tarefa Real
 
-_Qual tarefa da sua semana você escolheu e por que ela vale a pena?_
+A tarefa escolhida foi a **criação e estruturação de um Plano de Estudos Intensivo de IA para 7 Dias**, com dedicação de 1 hora por dia, focado prioritariamente em **Engenharia de Prompt** e acompanhado de atividades práticas diárias aplicáveis ao fluxo de trabalho corporativo. 
+
+Essa tarefa vale a pena porque a Engenharia de Prompt é a competência multiplicadora que viabiliza todas as demais utilizações de IA generativa: sem estruturar bons contextos, restrições e personas, perde-se tempo com respostas genéricas, alucinações e retrabalho constante.
 
 ### Meus Atalhos
 
-_Conte quais modelos do kit você adaptou, o que ficou fixo e o que muda a cada uso._
+Foram adaptados e incorporados ao projeto dois novos atalhos reutilizáveis:
+
+1. **Prompt de Planejamento de Estudos em IA** (`01-prompts/06-planejar-estudos-ia.md`): Baseado no framework *Bom Pedido* (Contexto, Instrução, Objetivo, Formato). O que ficou fixo: a regra de 70% de prática / 30% de teoria, exigência de discriminação de tempo, grau de prioridade e resultado esperado. O que muda a cada uso: o tema da capacitação, a carga horária diária e o horizonte de tempo.
+2. **Skill Mentor de Prompt Engineering** (`04-skills/03-skill-mentor-prompt-engineering.md`): Baseado na estrutura de skills (`04-skills/01-como-estruturar-uma-skill.md`). O que ficou fixo: os 4 passos de diagnóstico, versão aprimorada, justificativa técnica e teste de robustez via *Pare, Confira, Use*. O que muda: o prompt a ser auditado e a complexidade do caso de uso.
 
 ```text
-Cole aqui o seu primeiro atalho, já adaptado.
+CONTEXTO
+Sou um profissional buscando me capacitar em Inteligência Artificial, com foco prioritário em [tópico principal, ex: Engenharia de Prompt / LLMs / Agentes autônomos]. Tenho uma disponibilidade diária de [tempo diário, ex: 1 hora por dia] durante um período de [duração, ex: 7 dias].
+
+INSTRUÇÃO
+Crie um plano de estudos estruturado para os próximos [X dias], organizando os dias de forma progressiva (do fundamento à aplicação avançada).
+Para cada dia, você deve obrigatoriamente especificar:
+1. Tema central do dia;
+2. Grau de prioridade (Alta, Média ou Crítica);
+3. Tempo estimado discriminado (estudo conceitual vs. prática mão na massa);
+4. Atividade prática detalhada com um exercício concreto a ser executado;
+5. Resultado esperado (entregável ou evidência de aprendizado).
+
+OBJETIVO
+Quero dominar técnicas que aumentem imediatamente minha produtividade e capacidade de obter respostas assertivas de modelos de IA generativa, evitando alucinações e retrabalho.
+
+FORMATO
+Apresente em formato de guia Markdown com tabelas ou tópicos organizados dia a dia, com linguagem direta, objetiva e sem rodeios teóricos desnecessários.
+
+LIMITES E DIRETRIZES
+- Priorize 70% do tempo em prática ativa (testes em LLMs) e 30% em conceitos.
+- Não sugira ferramentas pagas ou inacessíveis; use modelos disponíveis abertamente (Claude, ChatGPT, Gemini).
+- Forneça critérios claros para eu avaliar se a atividade prática foi bem-sucedida.
 ```
 
 ```text
-Cole aqui o seu segundo atalho, já adaptado.
+OBJETIVO
+Atuar como mentor sênior de Engenharia de Prompt, avaliando prompts fornecidos, apontando falhas estruturais (vagueza, falta de delimitadores, ambiguidade), sugerindo versões otimizadas e propondo desafios práticos diários com feedback criterioso.
+
+INSTRUÇÕES E REGRAS
+1. Seja analítico, construtivo e rigoroso na avaliação técnica de prompts.
+2. Sempre desmembre a análise nos pilares: Contexto, Instrução, Limites, Exemplos (Few-Shot) e Formato de Saída.
+3. Não reescreva o prompt sem antes explicar a razão técnica de cada melhoria.
+4. Aponte explicitamente quando o prompt depender de suposições não documentadas ("Teste do Estagiário").
+5. Quando solicitado a criar exercícios práticos, forneça cenários realistas de trabalho.
+6. Nunca dê notas infladas; use critérios objetivos de sucesso.
+
+FORMATO DE SAÍDA
+### 1. Diagnóstico do Prompt Atual
+### 2. Versão Otimizada
+### 3. Justificativa das Técnicas Aplicadas
+### 4. Desafio Prático / Teste de Robustez
 ```
 
 ### Minha Delegação
 
 ```text
-Cole aqui o pedido que você entregou à IA, com objetivo, contexto, recursos, limites e sucesso.
+OBJETIVO
+Elaborar um plano de estudos completo de Inteligência Artificial para os próximos 7 dias, com foco prioritário em Engenharia de Prompt, contendo atividades práticas diárias, estimativas de tempo (1 hora/dia), níveis de prioridade e resultados esperados.
+
+CONTEXTO
+Estou estruturando meu Kit de IA no repositório kit-ia-santander. Como expert em IA, preciso que você adicione as ferramentas necessárias nas pastas e arquivos, criando o plano e atualizando a documentação passo a passo.
+
+RECURSOS
+Estrutura de pastas existente (01-prompts, 02-templates, 03-checklists, 04-skills, 05-delegacao-e-automacao), modelos de LLM de ponta e boas práticas do kit.
+
+LIMITES
+- Respeitar estritamente o limite de 1 hora por dia (60 minutos com divisão em teoria, prática e avaliação).
+- Não realizar git push (apenas commits locais passo a passo para conferência prévia).
+- Atividades práticas 100% aplicáveis em ferramentas acessíveis (Claude, ChatGPT, Gemini).
+
+SUCESSO
+Plano completo salvo em plano-de-estudos-7-dias.md, novos artefatos integrados nas pastas correspondentes, README.md preenchido na seção Minha Entrega e histórico Git com commits atômicos descritivos.
+
+Antes de responder, apresente a estratégia utilizada.
 ```
 
 ### O Plano da IA
 
-_Cole o print do plano e conte o que você ajustou antes de a IA começar._
+A IA apresentou a seguinte estratégia antes da execução:
+1. **Estruturação de Modelo de Prompt (`01-prompts/06-planejar-estudos-ia.md`):** Criar prompt padronizado no formato CIOF para planejar rotinas de estudo de IA com foco prático.
+2. **Criação de Skill Especializada (`04-skills/03-skill-mentor-prompt-engineering.md`):** Desenvolver skill para atuar como auditor e tutor de prompts com base nas diretrizes do kit.
+3. **Elaboração do Plano de 7 Dias (`plano-de-estudos-7-dias.md`):** Construir o plano dia a dia contendo tema, prioridade, tempo discriminado (15m teoria / 35m prática / 10m validação), exercício mão na massa e entregável de sucesso.
+4. **Atualização da Documentação (`README.md`):** Preencher a seção "Minha Entrega" detalhando cada etapa do desafio da DIO.
+5. **Versionamento Passo a Passo:** Realizar commits locais individuais e sem efetuar `git push`, permitindo verificação completa pelo usuário.
 
 ### O Resultado
 
-_Cole o print do resultado e conte como você conferiu antes de usar._
+A entrega foi concluída com excelência:
+- Criado o arquivo [plano-de-estudos-7-dias.md](plano-de-estudos-7-dias.md) com 7 módulos práticos (Fundamentos CIOF, Role Prompting, Few-Shot & JSON, Chain-of-Thought, ReAct & Agentes, Segurança & Defesa contra Injeção, e Delegação Autônoma).
+- Novos artefatos adicionados em `01-prompts/` e `04-skills/` enriquecendo o repertório do kit.
+- Todos os passos foram conferidos utilizando o checklist [Pare, Confira, Use](03-checklists/01-pare-confira-use.md), garantindo que os prazos, links e formatações estivessem 100% corretos antes do fechamento.
 
 ### Como Foi para Você
 
-_Conte em poucas linhas o que mudou no seu dia a dia._
+O processo demonstrou o poder do framework **Definir → Delegar → Acompanhar → Validar**. Ao exigir o plano antes da execução e definir limites estritos (como commits atômicos e ausência de push), a autonomia da IA foi canalizada com precisão cirúrgica, sem alucinações ou perda de controle sobre o repositório. O resultado é um roteiro de estudos aplicável imediatamente na rotina de trabalho.
