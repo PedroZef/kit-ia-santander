@@ -5,7 +5,6 @@
   <img src="https://img.shields.io/badge/Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity" />
   <img src="https://img.shields.io/badge/Superpowers%20Skills-FF6F00?style=for-the-badge&logo=lightning&logoColor=white" alt="Superpowers Skills" />
   <img src="https://img.shields.io/badge/Prompt%20Engineering-2EA44F?style=for-the-badge&logo=target&logoColor=white" alt="Prompt Engineering" />
-  <img src="https://img.shields.io/badge/Oracle%20Cloud%20AI-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Cloud AI" />
   <img src="https://img.shields.io/badge/Santander%20Bootcamp-EC0000?style=for-the-badge&logo=santander&logoColor=white" alt="Santander Bootcamp" />
   <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
 </p>
@@ -201,3 +200,8 @@ A entrega foi concluída com excelência:
 ### Como Foi para Você
 
 O processo demonstrou o poder do framework **Definir → Delegar → Acompanhar → Validar**. Ao exigir o plano antes da execução e definir limites estritos (como commits atômicos e ausência de push), a autonomia da IA foi canalizada com precisão cirúrgica, sem alucinações ou perda de controle sobre o repositório. O resultado é um roteiro de estudos aplicável imediatamente na rotina de trabalho.
+
+---
+
+Desenvolvido por Pedro Zeferino da Silva com DIO - 2026.
+
