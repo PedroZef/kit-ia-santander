@@ -46,6 +46,34 @@ Você não precisa instalar nada nem saber programar. Tudo acontece no navegador
 
 ---
 
+## 🎓 Plano de Estudos: Certificação Oracle em IA (7 Dias Passo a Passo com Melhorias)
+
+Preparação acelerada e prática (1 hora por dia) para as certificações oficiais **Oracle Cloud Infrastructure Generative AI Professional (1Z0-1127)** e **OCI AI Foundations (1Z0-1122)**, conectando os frameworks de Engenharia de Prompt do kit aos serviços gerenciados de nuvem da Oracle.
+
+### 🚀 As Principais Melhorias em Relação ao Estudo Tradicional
+
+1. **Abordagem Hands-on Prática (70% Prática / 30% Teoria):** Supera a leitura passiva de slides e documentações através de testes interativos no OCI Generative AI Playground e chamadas diretas de API.
+2. **Engenharia de Prompt para Cohere & Llama no OCI:** Calibração precisa dos parâmetros de inferência (`Temperature`, `Top-p`, `Top-k`, `Stop Sequences`) e estruturas de preâmbulo de sistema no Cohere Command R/R+.
+3. **RAG e Vetores Nativos no Oracle Database 23ai:** Foco no uso real do tipo de dado nativo `VECTOR` e funções de distância por similaridade semântica (`VECTOR_DISTANCE`), superando explicações abstratas de busca vetorial.
+4. **Agentes Gerenciados OCI (GenAI Agents):** Domínio prático de Knowledge Bases integradas ao OCI OpenSearch com moderação de conteúdo e segurança corporativa.
+5. **Auditoria de Questões com "Pare, Confira, Use":** Uso do checklist do kit para neutralizar pegadinhas recorrentes da banca da Oracle sobre governança, privacidade (a Oracle não treina modelos com dados do cliente) e dimensionamento de Dedicated AI Clusters.
+
+### 📅 O Passo a Passo dos 7 Dias
+
+| Dia | Tópico do Exame Oracle | Prioridade | Tempo | Atividade Prática & Resultado Esperado |
+| :---: | :--- | :---: | :---: | :--- |
+| **01** | **OCI GenAI Service & Pretrained Models** | **Alta** | 60 min | Configurar hiperparâmetros (Cohere Command vs Llama 3) no Playground; comparar custos de endpoints serverless vs Dedicated AI Clusters. |
+| **02** | **Prompt Engineering Especializado (OCI)** | **Crítica** | 60 min | Construir prompts Few-Shot no formato CIOF para a API Cohere Command com extração de entidades em schema JSON estrito. |
+| **03** | **Embeddings & Oracle AI Vector Search (23ai)** | **Alta** | 60 min | Escrever script DDL/DML em SQL no Oracle 23ai com coluna `VECTOR(1024, FLOAT32)` e consulta por similaridade de cosseno. |
+| **04** | **Arquitetura RAG no OCI de Ponta a Ponta** | **Crítica** | 60 min | Desenhar arquitetura RAG (Object Storage → Cohere Embed → Vector Store → LLM) com prompt de ancoragem contra alucinações. |
+| **05** | **OCI GenAI Agents & Knowledge Bases** | **Crítica** | 60 min | Configurar agente totalmente gerenciado no OCI conectado a base de conhecimento com regras de sessão e moderação de conteúdo. |
+| **06** | **Fine-Tuning no OCI (LoRA / T-Few) vs RAG** | **Alta** | 60 min | Criar dataset de treino no formato JSONL e estruturar matriz comparativa de decisão técnica/financeira entre Fine-Tuning e RAG. |
+| **07** | **Segurança IAM, Governança e Simulado Final** | **Crítica** | 60 min | Resolver 15 questões de simulado oficial da Oracle aplicando *Pare, Confira, Use* para alcançar assertividade comprovada ≥ 85%. |
+
+> 📄 **Guia Completo da Certificação:** Acesse o documento detalhado com exemplos de código SQL, formatação JSONL e arquitetura em [plano-certificacao-oracle-ai-7-dias.md](plano-certificacao-oracle-ai-7-dias.md).
+
+---
+
 ## Minha Entrega
 
 Abaixo está o registro completo da realização do desafio, documentando a tarefa real escolhida, os modelos adaptados, o comando de delegação, o plano prévio da IA, os resultados alcançados e as reflexões sobre o processo.
@@ -142,8 +170,9 @@ A IA apresentou a seguinte estratégia antes da execução:
 ### O Resultado
 
 A entrega foi concluída com excelência:
-- Criado o arquivo [plano-de-estudos-7-dias.md](plano-de-estudos-7-dias.md) com 7 módulos práticos (Fundamentos CIOF, Role Prompting, Few-Shot & JSON, Chain-of-Thought, ReAct & Agentes, Segurança & Defesa contra Injeção, e Delegação Autônoma).
-- Novos artefatos adicionados em `01-prompts/` e `04-skills/` enriquecendo o repertório do kit.
+- Criado o plano geral de engenharia de prompt em [plano-de-estudos-7-dias.md](plano-de-estudos-7-dias.md) com 7 módulos práticos (Fundamentos CIOF, Role Prompting, Few-Shot & JSON, Chain-of-Thought, ReAct & Agentes, Segurança contra Injeção e Delegação Autônoma).
+- Incorporada a trilha especializada da **Certificação Oracle Cloud Infrastructure (OCI) Generative AI Professional (1Z0-1127)** com o passo a passo de 7 dias e suas melhorias diretamente no README e em [plano-certificacao-oracle-ai-7-dias.md](plano-certificacao-oracle-ai-7-dias.md).
+- Novos artefatos adicionados em `01-prompts/` e `04-skills/` enriquecendo o repertório do kit com prompt de estudos e skill de mentoria.
 - Todos os passos foram conferidos utilizando o checklist [Pare, Confira, Use](03-checklists/01-pare-confira-use.md), garantindo que os prazos, links e formatações estivessem 100% corretos antes do fechamento.
 
 ### Como Foi para Você
