@@ -1,5 +1,15 @@
 # Meu Kit de IA
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini" />
+  <img src="https://img.shields.io/badge/Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity" />
+  <img src="https://img.shields.io/badge/Superpowers%20Skills-FF6F00?style=for-the-badge&logo=lightning&logoColor=white" alt="Superpowers Skills" />
+  <img src="https://img.shields.io/badge/Prompt%20Engineering-2EA44F?style=for-the-badge&logo=target&logoColor=white" alt="Prompt Engineering" />
+  <img src="https://img.shields.io/badge/Oracle%20Cloud%20AI-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Cloud AI" />
+  <img src="https://img.shields.io/badge/Santander%20Bootcamp-EC0000?style=for-the-badge&logo=santander&logoColor=white" alt="Santander Bootcamp" />
+  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
+</p>
+
 Desafio de Projeto da [DIO](https://dio.me): monte o seu kit de IA para o dia a dia e delegue uma tarefa real, com você no comando.
 
 O kit foi criado pelo Expert Bruno Lima com os prompts, templates, checklists e skills usados nas Aulas. Ele não é uma apostila: abra a pasta que resolve o seu problema, copie o modelo, adapte e use.
@@ -33,6 +43,18 @@ Você não precisa instalar nada nem saber programar. Tudo acontece no navegador
 | [04-skills](04-skills) | Como criar uma skill, e a Skill Preparador de Reuniões usada nas Aulas |
 | [05-delegacao-e-automacao](05-delegacao-e-automacao) | Gatilhos de automação, supervisão e checkpoints |
 | [06-planos](06-planos) | Planos de estudos estruturados: Engenharia de Prompt e Certificação Oracle AI |
+
+## 🛠️ Tecnologias e Skills Utilizadas
+
+| Tecnologia / Recurso | Categoria | Descrição e Aplicação no Projeto |
+|---|---|---|
+| **Google Gemini (Gemini 3.8 Flash / Pro)** | Modelo de Linguagem | Motor central de raciocínio, geração dos planos estruturados de 7 dias e análise de prompts. |
+| **Antigravity by Google DeepMind** | Harness & Agentic Engine | Plataforma autônoma para orquestração de ferramentas, execução de comandos locais e gestão do repositório. |
+| **Superpowers Plugin & Skills** | Framework Operacional | Metodologia rigorosa de delegação, planejamento passo a passo (`writing-plans`) e auditoria contínua. |
+| **Engenharia de Prompt (CIOF, Few-Shot, CoT, ReAct)** | Competência Técnica | Metodologias aplicadas para estruturação de comandos, ancoragem de respostas e mitigação de alucinações. |
+| **Oracle Cloud Infrastructure (OCI) AI** | Ecossistema Cloud | Trilha para certificações 1Z0-1127/1Z0-1122, RAG no OCI, Cohere Command, Llama 3 e Oracle 23ai Vector Search. |
+| **Skill Mentor de Prompt Engineering** | Skill Customizada | Auditoria técnica dos prompts desenvolvidos, com diagnóstico estruturado e teste de robustez via *Pare, Confira, Use*. |
+| **Git & Conventional Commits** | Versionamento e Controle | Rastreabilidade das mudanças atômicas sem realização de `git push`, permitindo verificação humana contínua. |
 
 ## Os Frameworks das Aulas
 
