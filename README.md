@@ -32,6 +32,7 @@ Você não precisa instalar nada nem saber programar. Tudo acontece no navegador
 | [03-checklists](03-checklists) | Revisão de respostas, de textos e de tarefas delegadas |
 | [04-skills](04-skills) | Como criar uma skill, e a Skill Preparador de Reuniões usada nas Aulas |
 | [05-delegacao-e-automacao](05-delegacao-e-automacao) | Gatilhos de automação, supervisão e checkpoints |
+| [06-planos](06-planos) | Planos de estudos estruturados: Engenharia de Prompt e Certificação Oracle AI |
 
 ## Os Frameworks das Aulas
 
@@ -70,7 +71,7 @@ Preparação acelerada e prática (1 hora por dia) para as certificações ofici
 | **06** | **Fine-Tuning no OCI (LoRA / T-Few) vs RAG** | **Alta** | 60 min | Criar dataset de treino no formato JSONL e estruturar matriz comparativa de decisão técnica/financeira entre Fine-Tuning e RAG. |
 | **07** | **Segurança IAM, Governança e Simulado Final** | **Crítica** | 60 min | Resolver 15 questões de simulado oficial da Oracle aplicando *Pare, Confira, Use* para alcançar assertividade comprovada ≥ 85%. |
 
-> 📄 **Guia Completo da Certificação:** Acesse o documento detalhado com exemplos de código SQL, formatação JSONL e arquitetura em [plano-certificacao-oracle-ai-7-dias.md](plano-certificacao-oracle-ai-7-dias.md).
+> 📄 **Guia Completo da Certificação:** Acesse o documento detalhado com exemplos de código SQL, formatação JSONL e arquitetura em [06-planos/02-plano-certificacao-oracle-ai-7-dias.md](06-planos/02-plano-certificacao-oracle-ai-7-dias.md).
 
 ---
 
@@ -153,7 +154,7 @@ LIMITES
 - Atividades práticas 100% aplicáveis em ferramentas acessíveis (Claude, ChatGPT, Gemini).
 
 SUCESSO
-Plano completo salvo em plano-de-estudos-7-dias.md, novos artefatos integrados nas pastas correspondentes, README.md preenchido na seção Minha Entrega e histórico Git com commits atômicos descritivos.
+Planos de estudos completos salvos na pasta 06-planos (01-plano-de-estudos-7-dias.md e 02-plano-certificacao-oracle-ai-7-dias.md), novos artefatos integrados nas pastas correspondentes, README.md preenchido na seção Minha Entrega e histórico Git com commits atômicos descritivos.
 
 Antes de responder, apresente a estratégia utilizada.
 ```
@@ -163,15 +164,15 @@ Antes de responder, apresente a estratégia utilizada.
 A IA apresentou a seguinte estratégia antes da execução:
 1. **Estruturação de Modelo de Prompt (`01-prompts/06-planejar-estudos-ia.md`):** Criar prompt padronizado no formato CIOF para planejar rotinas de estudo de IA com foco prático.
 2. **Criação de Skill Especializada (`04-skills/03-skill-mentor-prompt-engineering.md`):** Desenvolver skill para atuar como auditor e tutor de prompts com base nas diretrizes do kit.
-3. **Elaboração do Plano de 7 Dias (`plano-de-estudos-7-dias.md`):** Construir o plano dia a dia contendo tema, prioridade, tempo discriminado (15m teoria / 35m prática / 10m validação), exercício mão na massa e entregável de sucesso.
-4. **Atualização da Documentação (`README.md`):** Preencher a seção "Minha Entrega" detalhando cada etapa do desafio da DIO.
+3. **Organização da Pasta `06-planos/`:** Criar os planos de estudos práticos (Engenharia de Prompt e Certificação Oracle AI) contendo tema, prioridade, tempo discriminado (15m teoria / 35m prática / 10m validação), exercícios mão na massa e entregáveis de sucesso.
+4. **Atualização da Documentação (`README.md`):** Preencher a seção "Minha Entrega" detalhando cada etapa do desafio da DIO e atualizando o índice do kit com a pasta `06-planos`.
 5. **Versionamento Passo a Passo:** Realizar commits locais individuais e sem efetuar `git push`, permitindo verificação completa pelo usuário.
 
 ### O Resultado
 
 A entrega foi concluída com excelência:
-- Criado o plano geral de engenharia de prompt em [plano-de-estudos-7-dias.md](plano-de-estudos-7-dias.md) com 7 módulos práticos (Fundamentos CIOF, Role Prompting, Few-Shot & JSON, Chain-of-Thought, ReAct & Agentes, Segurança contra Injeção e Delegação Autônoma).
-- Incorporada a trilha especializada da **Certificação Oracle Cloud Infrastructure (OCI) Generative AI Professional (1Z0-1127)** com o passo a passo de 7 dias e suas melhorias diretamente no README e em [plano-certificacao-oracle-ai-7-dias.md](plano-certificacao-oracle-ai-7-dias.md).
+- Criada a pasta [06-planos](06-planos) contendo o plano geral de engenharia de prompt em [06-planos/01-plano-de-estudos-7-dias.md](06-planos/01-plano-de-estudos-7-dias.md) e o guia especializado da **Certificação Oracle Cloud Infrastructure (OCI) Generative AI Professional (1Z0-1127)** em [06-planos/02-plano-certificacao-oracle-ai-7-dias.md](06-planos/02-plano-certificacao-oracle-ai-7-dias.md).
+- Incorporada a trilha da Certificação Oracle com o passo a passo de 7 dias e suas melhorias diretamente no README.
 - Novos artefatos adicionados em `01-prompts/` e `04-skills/` enriquecendo o repertório do kit com prompt de estudos e skill de mentoria.
 - Todos os passos foram conferidos utilizando o checklist [Pare, Confira, Use](03-checklists/01-pare-confira-use.md), garantindo que os prazos, links e formatações estivessem 100% corretos antes do fechamento.
 
